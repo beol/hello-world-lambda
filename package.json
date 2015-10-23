@@ -1,0 +1,19 @@
+{
+  "name": "hello-world",
+  "version": "0.0.0",
+  "description": "AWS Lambda Hello World function",
+  "main": "HelloWorld.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "grunt": "0.4.*",
+    "grunt-aws-lambda": "0.8.0",
+    "npm": "^2.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leo Laksmana",
+  "license": "BSD"
+}
