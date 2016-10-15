@@ -3,6 +3,7 @@ node_js:
     - "4.3.2"
 before_install:
     - npm install grunt-cli -g
-    - npm install
 install:
+    - npm install
+script:
     - grunt lambda_package
