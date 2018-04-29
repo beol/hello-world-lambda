@@ -4,12 +4,17 @@
   "description": "AWS Lambda Hello World function",
   "main": "HelloWorld.js",
   "devDependencies": {
+    "eslint": "^4.19.1",
     "grunt": "0.4.5",
     "grunt-aws-lambda": "0.13.0",
+    "grunt-cli": "^1.2.0",
     "npm": "^2.8.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "grunt lambda_invoke",
+    "build": "grunt lambda_package",
+    "deploy": "grunt lambda_deploy",
+    "lint": "eslint HelloWorld.js"
   },
   "author": "Leo Laksmana",
   "license": "ISC",

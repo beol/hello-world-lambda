@@ -1,5 +1,14 @@
+.idea/
+
 .*~
+.eslintrc.yml
+.npmignore
+.travis.yml
+
 *~
-event.json
+Dockerfile
 Gruntfile.js
+Makefile
+Vagrantfile
 dist
+event.json
